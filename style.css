@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.drop-down{
+    color: black;
+    background: white;
+}
+.drop-down:hover{
+    color: white;
+    background: blue;
+}
+.button1 button{
+    color: white;
+    background: none;
+    border: 2px solid white;
+     width: 12rem;
+     border-radius: 17px 17px;
+     padding: .5rem 1rem .5rem 1rem;
+     font-size: 1.3rem;
+}
+.button1 button:hover{
+    color: blue;
+    background: white;
+}
+.extra{
+    margin: 3rem;
+}
+.extra-div{
+    border: blue;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 blue;
+    transform: translateY(-20px);
+    transition: 0.3s all ease;
+}
+.amar:hover{
+    transform: translateY(-20px);
+    transition: 0.3s all ease;
+    box-shadow:0 0 10px rgb(138, 44, 226);
+}
+.tom{
+    background: linear-gradient(rgba(21, 94, 131, 0.3), rgba(35, 90, 117, 0.3));
+
+}
